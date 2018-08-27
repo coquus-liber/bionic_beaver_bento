@@ -7,7 +7,7 @@ Using Chef Recipes, the box installs x-windows and a collection of utilities for
 The plugin `vagrant-proxyconf` will copy the proxy setting from the host's environment variables and apply them to the guest system. That can be installed using. 
 
 ```
-$ vagrant install plugin vagrant-proxyconf
+$ vagrant plugin install vagrant-proxyconf
 ```
 
 Then, as long as the proxy variables are set on the host, the proxy for the guest will be setup. 
